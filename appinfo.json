@@ -1,0 +1,9 @@
+{
+	"id": "com.tomkit.partygraffiti-free",
+	"version": "1.0.2",
+	"vendor": "tomkit",
+	"type": "web",
+	"main": "index.html",
+	"title": "Party Graffiti",
+	"icon": "icon.png"
+}

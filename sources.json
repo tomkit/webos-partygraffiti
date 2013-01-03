@@ -1,0 +1,39 @@
+[
+    {"source": "app/assistants/stage-assistant.js"},
+    {
+        "scenes": "PlayersSelection",
+        "source": "app/assistants/PlayersSelection-assistant.js"
+    },
+    {
+        "scenes": "Welcome",
+        "source": "app/assistants/Welcome-assistant.js"
+    },
+    {
+        "scenes": "Instructions",
+        "source": "app/assistants/Instructions-assistant.js"
+    },
+    {
+        "scenes": "DictionarySelection",
+        "source": "app/assistants/DictionarySelection-assistant.js"
+    },
+    {
+        "scenes": "GameStart",
+        "source": "app/assistants/GameStart-assistant.js"
+    },
+    {
+        "scenes": "GameWord",
+        "source": "app/assistants/GameWord-assistant.js"
+    },
+    {
+        "scenes": "OneScore",
+        "source": "app/assistants/OneScore-assistant.js"
+    },
+    {
+        "scenes": "EndResults",
+        "source": "app/assistants/EndResults-assistant.js"
+    },
+    {
+        "scenes": "TimesUp",
+        "source": "app/assistants/TimesUp-assistant.js"
+    }
+]

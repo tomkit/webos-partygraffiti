@@ -1,0 +1,15 @@
+<div id="whole-page">
+	<div>
+		<img src="images/finalscore.png"></img>
+		<div id="center">
+			<ol id="scores">
+				<div id="scores">
+					
+				</div>
+			</ol>
+		</div>
+		<div id="playAgain" class="button-background">
+			<img src="images/playagain.png" class="button-text"></img>
+		</div>
+	</div>
+</div>

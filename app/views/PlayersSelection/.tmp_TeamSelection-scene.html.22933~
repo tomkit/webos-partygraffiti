@@ -1,0 +1,16 @@
+<!-- TODO: replace the contents of this file with your own html -->
+<div class="scene-title">
+	Party Picturnary
+</div>
+<div id="1team" class="team-selection">
+	1 Team
+</div>
+<div id="2team" class="team-selection">
+	2 Teams
+</div>
+<div id="3team" class="team-selection">
+	3 Teams
+</div>
+<div id="4team" class="team-selection">
+	4 Teams
+</div>

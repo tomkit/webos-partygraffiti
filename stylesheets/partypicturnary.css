@@ -1,0 +1,329 @@
+@-webkit-keyframes bounce {
+	from {
+		left: 0px;
+	}
+	to {
+		left: 200px;
+	}
+}
+
+@-webkit-keyframes pulse {
+	
+ 0% {
+ 	border-radius: 100px;
+   background-color: red;
+   opacity: 0.3;
+   -webkit-transform: scale(1.0) rotate(0deg);
+ }
+ 33% {
+ 	border-radius: 100px;
+   background-color: blue;
+   opacity: 0.5;
+   -webkit-transform: scale(1.1) rotate(-1deg);
+ }
+ 67% {
+ 	border-radius: 100px;
+   background-color: green;
+   opacity: 0.5;
+   -webkit-transform: scale(1.1) rotate(1deg);
+ }
+ 100% {
+ 	border-radius: 100px;
+   background-color: red;
+   opacity: 0.3;
+   -webkit-transform: scale(1.0) rotate(0deg);
+ }
+}
+
+@-webkit-keyframes flip {
+	0%{}
+	100%{
+		-webkit-transform: scale(0.0);
+	}
+		
+	
+	
+}
+
+#winner {
+	color: yellow;
+}
+
+#scores {
+	color: white;
+	
+}
+
+#inner-scores {
+	width: 320px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: auto;
+	padding-right: auto;
+}
+
+#score {
+	font-size: 80px;
+	position: relative;
+	text-align: center;
+}
+
+#whole-page {
+	width: 320px;
+	height: 480px;
+	background-image: url('../images/background4.png');
+	position: relative;
+}
+
+#welcome-button-wrapper {
+	
+}
+/*
+div #instructions .palm-button {
+	width: 150px;
+	padding-left: auto;
+	padding-right: auto;
+}*/
+
+#times-up {
+	
+	width: 300px;
+	height: 200px;
+	
+	background: black url('../images/police-siren.gif') no-repeat 50% 50%;
+	border-radius: 20px;
+	position: relative;
+	text-align: center;
+	
+}
+
+#center {
+	width: 320px;
+	text-align: center;
+}
+
+#option {
+	float: right;
+}
+
+#buy {
+	width: 160px;
+	height: 120px;
+	border-radius: 10px;
+	padding: 12px 0 15px;
+	background: transparent url('../images/buy.png') no-repeat 50% 50%;
+	position: relative;
+	float: left;
+	text-align: center;
+}
+
+.button-background {
+	width: 160px;
+	padding: 30px 0 15px;
+	background: transparent url('../images/button-background.png') no-repeat 50% 50%;
+	position: relative;
+	float: left;
+	text-align: center;
+	opacity: 1;
+	-webkit-transition: opacity 1s linear;
+	
+	/*
+	-webkit-animation-name: pulse;
+	-webkit-animation-duration: 4s;
+	-webkit-animation-direction: alternate;
+	-webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-iteration-count: infinite;
+	*/
+}
+
+.button-background-stacked {
+	width: 320px;
+	padding: 30px 0;
+	background: transparent url('../images/large-button-background.png') no-repeat 50% 50%;
+	position: relative;
+	text-align: center;
+}
+
+#scene-title {
+	top: 50%;
+	margin-top: -200px;
+	position: absolute;
+}
+
+#title-buttons {
+	top: 50%;
+	margin-top: -200px;
+	position: absolute;
+}
+
+#instructions-back {
+	top: 50%;
+	margin-top: -140px;
+	position: absolute;
+}
+
+#pass-to-player {
+	top: 50%;
+	margin-top: -220px;
+	position: absolute;
+}
+
+#pass {
+	width: 320px;
+	position: relative;
+	text-align: center;
+}
+
+#pass-button-number {
+	top: 50%;
+	margin-top: 125px;
+	position: absolute;
+}
+
+#twitter-normal {
+	top: 50%;
+	margin-top: -150px;
+	position: absolute;
+}
+
+.pass-playerNum {
+	width: 160px;
+	font-size: 120px;
+	position: relative;
+	text-align: center;
+	float: left;
+}
+
+.word-playerNum {
+	font-size: 100px;
+	position: absolute;
+	top: 5px;
+	right: 25px;
+}
+
+#num-of-players {
+
+}
+
+#remaining-words {
+	position: absolute;
+	bottom: 60px;
+	left: 44%;
+	text-align: center;
+	font-color: black; /*#850787;*/
+}
+
+#rest-of-page {
+	position: absolute;
+	top: 50%;
+	margin-top: -140px;
+	
+}
+
+#word {
+	font-size: 30px;
+	font-color: red;
+	
+	text-align: center;
+	vertical-align: middle;
+	
+}
+
+#timer {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.card {
+	width: 120px;
+	height: 160px;
+	background-color: white;
+	border-color: black;
+	border-radius: 10px;
+	border-style: solid;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.word-title {
+	width: 320px;
+}
+
+#player-text {
+	width: 250px;
+	display: inline;
+}
+
+.title-text {
+	top: 50%
+	margin-top: -80px;
+	position: absolute:
+}
+
+.button-text {
+	
+}
+
+
+#start {
+	/*
+	width: 150px;
+	-webkit-animation-name: pulse;
+	-webkit-animation-duration: 4s;
+	-webkit-animation-direction: alternate;
+	-webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-iteration-count: infinite;
+*/
+}
+
+.integer-picker-class {
+	font-color: red;
+}
+
+#back .palm-button {
+	padding-left: auto;
+	padding-right: auto;
+	width: 150px;
+}
+
+.title {
+	
+	padding-left: auto;
+	padding-right: auto;
+}
+
+.palm-body-text {
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	font: Palatino Linotype
+}
+
+.label {
+	color: red;
+}
+
+.left {
+	color: red;
+}
+
+.label.mv-picker-label {
+	color: black;
+	font-weight: bold;
+}
+
+.correct-picker {
+	width: 250px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#players {
+	width: 180px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#player-ok {
+	float: right;
+}
